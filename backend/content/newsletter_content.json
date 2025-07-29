@@ -1,0 +1,54 @@
+{
+    "january": {},
+    "february": {
+        "fertilizing_facts": "As the days get longer, it's time to give your citrus and avocados their first feeding of the year with a balanced fertilizer. A dose of compost for your roses now will pay off in blooms later."
+    },
+    "march": {},
+    "april": {},
+    "may": {
+        "pest_disease_patrol": "Watch for aphids on your new rose growth. A strong blast of water can knock them off, or you can introduce ladybugs. If you see powdery mildew on your squash leaves, improve air circulation and consider a potassium bicarbonate spray."
+    },
+    "june": {},
+    "july": {
+        "whats_blooming": "July in Watsonville is a riot of color. Your Lavender should be a fragrant, buzzing hub for local bees, and the native California Fuchsia (Epilobium canum) is beginning to unfurl its fiery orange-red blooms—a guaranteed magnet for hummingbirds. Look for early dahlias and vibrant zinnias to be hitting their stride.",
+        "whats_blooming_image": "https://images.unsplash.com/photo-1598453532899-a9993e157544?q=80&w=2070&auto=format&fit=crop",
+        "time_to_plant": {
+            "veggies_herbs": "While the summer sun is strong, it's a perfect time for succession planting. Get in another round of bush beans, beets, and carrots. For a fall harvest, start seeds of kale and chard now; they'll thank you for it later.",
+            "flowers_ornamentals": "It's not too late for instant color! Plant cosmos, marigolds, and zinnias from nursery packs. For perennials that will establish before winter, consider planting coreopsis and echinacea."
+        },
+        "time_to_harvest": "Your vegetable garden should be a treasure trove. Tomatoes, especially early varieties, peppers, and eggplants are likely producing heavily. Keep harvesting herbs like basil and oregano to encourage bushy growth.",
+        "watering_wisdom": "Don't be fooled by the classic Watsonville morning fog. The afternoon sun can be intense. The key is to water deeply and infrequently to encourage strong, drought-resistant roots. For lawns, this means about 1 inch of water per week. For pots and hanging baskets, check them daily as they dry out fast.",
+        "fertilizing_facts": "Heavy feeders like tomatoes, corn, and squash will appreciate a mid-season boost. Use a balanced liquid fertilizer or side-dress with a quality compost to keep them productive through the end of summer.",
+        "pest_disease_patrol": "The dry heat of July is prime time for spider mites, especially on roses and tomatoes. Look for fine webbing on the underside of leaves. A strong, sharp spray of water from the hose is often enough to dislodge them. Also, keep an eye out for hornworms on your tomato plants."
+    },
+    "august": {
+        "whats_blooming": "August is the month of abundance. Sunflowers are standing tall, dahlias are in their full glory, and late-summer bloomers like asters and rudbeckia are putting on a spectacular show. It's a great time to take photos and plan for next year's garden.",
+        "time_to_plant": {
+            "veggies_herbs": "It's officially time to think about fall and winter harvests. Start seeds for broccoli, cauliflower, cabbage, and kale indoors or in a protected shady spot. You can also direct-sow root vegetables like radishes and turnips for a quick fall crop.",
+            "flowers_ornamentals": "For a stunning spring, now is the time to order fall-planted bulbs like daffodils, tulips, and alliums. It's also a great time to plant fall-blooming saffron crocus for a truly special harvest."
+        },
+        "time_to_harvest": "The bounty continues! Your tomatoes, especially the larger varieties, should be at their peak. Zucchini and summer squash can grow to monstrous sizes overnight, so check them daily. It's also time to harvest early apple varieties and Bartlett pears.",
+        "watering_wisdom": "August can bring heatwaves. Continue your deep watering schedule, and don't skimp on the mulch! A 2-3 inch layer of bark or compost will conserve moisture, keep roots cool, and suppress weeds. Water in the early morning to minimize evaporation.",
+        "fertilizing_facts": "Taper off on feeding most of your ornamental plants. You don't want to encourage a lot of tender new growth that will be vulnerable to damage when the weather cools. The exception is your fall vegetable starts, which can get a light feeding once they have a few true leaves.",
+        "pest_disease_patrol": "Powdery mildew is a common sight on squash, cucumbers, and even roses this time of year. Ensure good air circulation by selectively pruning leaves. You can treat it with a spray of 1 part milk to 9 parts water, or a commercial fungicide if needed."
+    },
+    "september": {
+        "whats_blooming": "The garden is shifting to its autumn palette. Japanese anemones, sedums like 'Autumn Joy', and goldenrod are providing crucial late-season nectar for pollinators. Your dahlias and asters should still be going strong.",
+        "time_to_plant": {
+            "veggies_herbs": "Now is the perfect time to get your cool-season crops in the ground. Transplant the broccoli, cauliflower, and kale seedlings you started last month. Direct sow lettuce, spinach, arugula, and more carrots. The soil is still warm, which gives them a great head start before winter.",
+            "flowers_ornamentals": "Get your winter color sorted! Plant pansies, violas, and snapdragons for cheerful blooms through the cooler months. It's also the ideal time to sow wildflower seeds for a spectacular spring display."
+        },
+        "time_to_harvest": "It's time to bring in the big guns. Harvest your pumpkins and winter squash before the first heavy rain to ensure they cure and store well. This is also the last chance for a big basil harvest to make pesto for the winter.",
+        "watering_wisdom": "As the days grow shorter and the temperatures begin to cool, you can start to dial back your watering schedule. Check the soil moisture before turning on the hose. It's one of the most important months to avoid overwatering.",
+        "fertilizing_facts": "Give your lawn a good fall feeding. A fertilizer formulated for fall will have less nitrogen and more potassium to promote strong root growth over the winter, leading to a healthier lawn next spring. It's also a great time to top-dress garden beds with compost.",
+        "pest_disease_patrol": "Tidy gardens are healthy gardens. Clean up fallen fruit from under your fruit trees and remove any diseased leaves from your roses and other perennials. This simple act of sanitation can dramatically reduce the number of pests and diseases that try to overwinter in your garden."
+    },
+    "october": {
+        "time_to_plant": {
+            "veggies_herbs": "",
+            "flowers_ornamentals": "Get your wildflower seeds and sweet peas in the ground for a spectacular spring show. It's also prime time for planting California natives like Ceanothus and Manzanita."
+        }
+    },
+    "november": {},
+    "december": {}
+}

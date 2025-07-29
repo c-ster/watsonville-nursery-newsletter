@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watsonville Nursery Newsletter</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f4f4f4;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 600px; margin: auto; background-color: #ffffff; border-radius: 8px; overflow: hidden;">
+        <!-- Header -->
+        <tr>
+            <td align="center" style="padding: 20px; background-color: #2e7d32; color: #ffffff;">
+                <h1 style="margin: 0; font-size: 24px;">Watsonville Nursery</h1>
+                <p style="margin: 5px 0 0;">Your Monthly Guide to Local Gardening</p>
+            </td>
+        </tr>
+
+        <!-- Personal Intro -->
+        <tr>
+            <td style="padding: 20px;">
+                <h2 style="color: #2e7d32;">From My Family to Yours</h2>
+                <p>{{ personalIntro }}</p>
+            </td>
+        </tr>
+
+        <!-- What to Do This Month -->
+        <tr>
+            <td style="padding: 0 20px;">
+                <h2 style="color: #2e7d32;">Your Watsonville Garden: What to Do in {{ monthName }}</h2>
+                
+                <!-- What's Blooming -->
+                <h2>What's Blooming in {{monthName}}</h2>
+                {% if whats_blooming_image %}
+                <p style="margin: 10px 0;"><img src="{{whats_blooming_image}}" alt="What's blooming this month" style="width: 100%; max-width: 560px; height: auto; display: block; margin: 0 auto;"></p>
+                {% endif %}
+                <p>{{whats_blooming}}</p>
+
+                <!-- Time to Plant -->
+                <h3>Time to Plant</h3>
+                <p><b>Veggies & Herbs:</b> {{ time_to_plant_veggies }}</p>
+                <p><b>Flowers & Ornamentals:</b> {{ time_to_plant_flowers }}</p>
+
+                <!-- Time to Harvest -->
+                <h3>Time to Harvest</h3>
+                <p>{{ time_to_harvest }}</p>
+
+                <!-- Watering Wisdom -->
+                <h3>Watering Wisdom</h3>
+                <p>{{ watering_wisdom }}</p>
+
+                <!-- Fertilizing Facts -->
+                <h3>Fertilizing Facts</h3>
+                <p>{{ fertilizing_facts }}</p>
+
+                <!-- Pest & Disease Patrol -->
+                <h3>Pest & Disease Patrol</h3>
+                <p>{{ pest_disease_patrol }}</p>
+            </td>
+        </tr>
+
+        <!-- Q&A -->
+        <tr>
+            <td style="padding: 20px;">
+                <h2 style="color: #2e7d32;">You Asked, We Answered</h2>
+                <p><b>Q:</b> {{ subscriberQuestion }}</p>
+                <p><b>A:</b> {{ subscriberAnswer }}</p>
+            </td>
+        </tr>
+
+        <!-- At the Nursery -->
+        <tr>
+            <td style="padding: 20px; background-color: #e8f5e9;">
+                <h2 style="color: #2e7d32;">At the Nursery This Month</h2>
+                <h4>New Arrivals</h4>
+                <p>{{ newArrivals }}</p>
+                <h4>Monthly Specials</h4>
+                <p>{{ monthlySpecials }}</p>
+                <h4>Upcoming Workshops</h4>
+                <p>{{ upcomingWorkshops }}</p>
+            </td>
+        </tr>
+
+        <!-- Feedback Section -->
+        <tr>
+            <td style="padding: 20px;">
+                <h2 style="color: #2e7d32;">Have a Question for Next Month?</h2>
+                <p>Got a gardening question you'd like to see answered in our next newsletter? Curious about a specific plant? We'd love to hear from you!</p>
+                <p style="text-align: center; margin-top: 20px;">
+                    <a href="mailto:questions@watsonvillenursery.com?subject=Newsletter%20Question" style="background-color: #ffc107; color: #333; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">Ask a Question</a>
+                </p>
+            </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+            <td align="center" style="padding: 20px; font-size: 12px; color: #777;">
+                <p>Watsonville Nursery | 123 Garden Lane, Watsonville, CA</p>
+                <p><a href="http://localhost:8080/unsubscribe.html" style="color: #2e7d32;">Unsubscribe</a></p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
